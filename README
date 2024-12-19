@@ -1,0 +1,56 @@
+Administrador de Recetas
+
+Requisitos:
+Python 3.7 o superior.
+
+Este proyecto es un programa en Python que permite gestionar recetas de cocina.
+Puedes organizar tus recetas en categorías, crear nuevas recetas, leerlas, eliminarlas
+y administrar las categorías.
+
+Características:
+Contar recetas:obtener el número total de recetas disponibles.
+Menú principal: Una interfaz interactiva para navegar por las diferentes opciones del programa.
+Gestión de categorías: Crear y eliminar categorías para organizar las recetas.
+Gestión de recetas: Crear, leer y eliminar recetas dentro de las categorías.
+
+
+Uso:
+Ejecuta el código directamente en Python desde el cmd con el comando:
+python mis_recetas.py
+o corriendolo desde un IDE
+
+Al iniciar, el programa mostrará un mensaje de bienvenida y el número de recetas disponibles.
+
+Menú principal:
+El programa muestra un menú interactivo con las siguientes opciones:
+Elegir receta
+Crear receta
+Crear categoría
+Eliminar receta
+Eliminar categoría
+Finalizar programa
+
+Elegir una receta:
+Navega por las categorías disponibles y selecciona una receta para leer su contenido.
+Crear una receta:
+Elige una categoría donde se almacenará la nueva receta.
+Escribe el nombre y el contenido de la receta.
+Crear una categoría:
+Escribe el nombre de la nueva categoría que deseas agregar.
+Eliminar una receta o categoría:
+Selecciona la receta o categoría que deseas eliminar y confirma la acción.
+Finalizar programa:
+Sal del programa de manera segura.
+
+nota importante:
+
+La carpeta 'Recetario' contiene la carpeta 'Recetas', El programa esta creado para que esta carpeta
+se encuentre en el path home (ruta C:\Users\'nombre usuario'\Recetas) para que el programa funcione correctamente
+
+si no quieres que se encuentre ahi puedes cambiar la ruta desde el codigo en la linea 4
+(mi_ruta = Path(Path.home(),'Recetas') donde podras mover la carpeta a donde quieras.
+
+En la misma carpeta 'Recetario' podras encontrar la carpeta 'Recetas' y moverla libremente a donde quieras,
+
+¡Disfruta organizando tus recetas!
+
